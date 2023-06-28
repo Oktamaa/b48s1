@@ -1,0 +1,48 @@
+.card-top{
+    background: white; 
+    width: 1100px; 
+    height: 500px; 
+    display: flex; 
+    border: 1px solid black; 
+    margin: 150px auto;
+    padding: 10px; 
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px;
+}
+
+.left{
+    display: flex; 
+    flex-direction: row;
+}
+
+.contact-download{
+    display: flex; 
+    flex-direction: row; 
+    gap: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.desc{
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px
+}
+
+button{
+    border-style: none;
+    cursor: pointer;
+    padding: 7px;
+    padding-left: 20px; 
+    padding-right: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(17, 15, 15);
+    border-radius: 20px;
+}
+
+.sosmed{
+    font-size: 30px; 
+    margin: auto; 
+    text-align: center;
+}
+    
