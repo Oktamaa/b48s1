@@ -1,0 +1,47 @@
+body {
+    background-color: #dce0e4;
+}
+
+.contact-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    justify-content: center;
+}
+
+.form-container div{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.form-container div label{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.form-container div button {
+    margin-top: 70px;
+}
+
+input {
+    border-radius: 20px;
+    border-style: none;
+}
+
+select {
+    border-radius: 20px;
+    border-style: none;
+}
+
+form {
+    margin: 30px;
+}

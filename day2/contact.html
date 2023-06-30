@@ -11,11 +11,12 @@
     <link rel="stylesheet" href="css/contact.css">
 </head>
 
+<body>
     <nav>
         <ul>
             <li>
                 <img src="image/brandred.png" />
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html" class="nav-home">Home</a></li>
             <li><a href="#">My Project</a></li>
         </ul>
 
@@ -23,19 +24,43 @@
             <a href="contact.html"><button>contact me</button></a>
         </div>
     </nav>
-        
 
-    <div>
-        <div class="contain-container">
-            <form class="form-container">
 
-            </form>
-        </div>
+    <div class="contact-container">
+        <form class="form-container">
+            <div>
+                <h1>GET IN TOUCH</h1>
+            </div>
+                
+            <div>
+                <label for="name">Name<input type="text" id="name"></label>
+            </div>
+                
+            <div>
+                <label for="email">Email<input type="text" id="email"></label>   
+            </div>
+
+            <div>
+                <label for="phone-number">Phone Number<input type="text" id="phone-number"></label>   
+            </div>
+
+            <div>
+                <label for="subject">Subject</label>
+                <select name id="subject">
+                    <option value hidden></option>
+                    <option value>Frontend Developer</option>
+                    <option value>Backend Developer</option>
+                    <option value>Fullstack Developer</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="your-message">Your message</label>
+                    <textarea name id="your-message"></textarea>
+            </div>
+            
+            <button type="submit">Submit</button>
+        </form>
     </div>
-            <h1>Hi Welcome to my hut</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse magnam, ducimus nemo deserunt consequuntur voluptates. Alias quam optio, veritatis, amet odio natus, provident est perferendis quo nihil sunt porro nulla.</p>
-        </div>
-    </nav>
-    
-        
-       
+</body>
+</html>
