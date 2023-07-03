@@ -46,7 +46,7 @@ button {
     display: flex;
     padding-bottom: 20px; 
     flex-direction: column; 
-    box-shadow: 0 0 20px black; 
+    box-shadow: 0 0 10px black; 
     margin-top: 50px; 
     margin-bottom: auto; 
     margin-right: 50px; 
