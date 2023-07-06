@@ -1,0 +1,77 @@
+form h1{
+    text-align: center;
+    height: 80px;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    justify-content: center;
+    font-weight: bold;
+    font-size: medium;
+    padding: 30px;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+}
+
+.group-date {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.group-date .start-date {
+    width : 45%;
+}
+
+.group-date .end-date {
+    width : 45%;
+}
+
+input,
+textarea {
+  margin-top: 3px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: #c1c1c1;
+  box-shadow: 0 2px 3px #c1c1c1;
+  resize: none;
+}
+
+.project-saya h1 {
+    text-align: center;
+}
+
+.project-saya {
+    padding: 40px;
+    background-color: rgb(236, 251, 251);
+}
+
+.flex-container {
+    justify-content: center;
+    background-color: white;
+    padding: 10px;
+    width: 300px;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px;
+    justify-content: center;
+}
+
+
+
+
+
+

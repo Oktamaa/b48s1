@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="image/brandred.png" />
+    <title>HOME</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/blog.css" />
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>
+                <img src="image/brandred.png" />
+            <li><a href="index.html" class="nav-home">Home</a></li>
+            <li><a href="blog.html">My Project</a></li>
+        </ul>
+
+        <div class="nav-right">
+            <a href="contact.html"><button>contact me</button></a>
+        </div>
+    </nav>
+
+    <div class="contact-container">
+        <form class="form-container" onsubmit="submitData(event)">
+            <div>
+                <h1>ADD MY PROJECT</h1>
+            </div>
+
+            <!-- INPUT PROJECT -->
+            <div>
+                <label for="input-project">Project Name</label>
+                <input type="text" id="input-project">
+            </div>
+
+            <!-- BUAT DATE-->
+            <div class="group-date">
+                <div class="start-date">
+                    <label for="start-date">Start date</label>
+                    <input type="date" id="start-date">
+                </div>
+                <div class="end-date">
+                    <label for="end-date">End date</label>
+                    <input type="date" id="end-date">
+                </div>
+            </div>
+            <!-- DATE END -->
+
+            <!-- DESKRIPSI -->
+            <div>
+                <label for="input-description">Description</label>
+                <textarea id="input-description" cols="25" rows="10" border-style="none"></textarea>
+            </div>
+            <!-- END -->
+
+            <div>
+                <label>Technologies</label>
+            </div>
+
+            <!-- BUAT CHECKBOX -->
+            <div class="checkbox">
+                <div class="list-checkbox">
+                    <input type="checkbox" id="node.js" class="multi-input">
+                    <label for="node.js">Node.Js</label>
+                </div>
+
+                <div class="list">
+                    <input type="checkbox" id="golang" class="multi-input">
+                    <label for="golang">Golang</label>
+                </div>
+
+                <div class="list">
+                    <input type="checkbox" id="react.js" class="multi-input">
+                    <label for="react.js">React.Js</label>
+                </div>
+
+                <div class="list">
+                    <input type="checkbox" id="javascript" class="multi-input">
+                    <label for="javascript">Javascript</label>
+                </div>
+                <!-- CHECKBOX END -->
+
+                <div>
+                    <label for="upload-images">Upload images</label>
+                </div>
+
+                <!-- PILIH FILE -->
+                <div clas="images">
+                    <label for="choose">
+                        <p a href="">Choose</p>
+                        <input type="file" id="choose">
+                    </label>
+                </div>
+                <!-- FILE END -->
+            </div>
+
+            <!-- TOMBOL BUTTON-->
+            <div>
+                <button type="button" onclick="submitData(event)" style="cursor: pointer;">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- My Project -->
+    <div class="project-saya">
+        <h1>MY PROJECT</h1>
+        <!-- project 1 -->
+        <div class="flex-container">      
+             <div class="gambar">
+                <img src="image/kuda.jpg" width="300px" height="250px">
+            </div>
+        <div class="judul">
+            <a href="blog-detail.html">
+                <h4>Dumbways Mobile App - 2021</h4>
+            </a>
+            <p>duration: 3 bulan</p>
+        </div>
+        <div class="deskripsi">
+            <p>App that used for dumbways student,
+                it was deployed and can downloaded on playstore.
+                Happy download.</p>
+        </div>
+        <div class="icon">
+            <img src="image/favicon (6).ico" width="30px">
+            <img src="image/favicon (7).ico" width="30px">
+            <img src="image/favicon (8).ico" width="30px">
+        </div>
+        <div class="tombol">
+            <button>Edit</button>
+            <button>Delete</button>
+        </div>
+        </div>
+        <!-- end -->
+
+        
+</body>
+<script>
+</script>
+
+</html>

@@ -1,0 +1,9 @@
+.image-blog {
+    display: flex;
+    flex-direction: row;
+}
+
+.blog-container {
+    display: flex;
+    flex-direction: row;
+}
